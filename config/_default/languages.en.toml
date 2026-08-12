@@ -20,7 +20,8 @@ title = "adlerzei"
    image = "img/adlerzei.jpg"
    imageQuality = 96
    headline = "professional software dev and function owner"
-   bio = "A little bit about you"
+   bio = "I am a software developer and documentation specialist with more than a decade of hands-on experience. I hold a Master's degree in IT Security and a Master's degree in Computer Science (completed with distinction) from TU Darmstadt."
+   
    links = [
      { email = "mailto:mail@adlerzei.de" },
 #     { link = "https://link-to-some-website.com/" },
