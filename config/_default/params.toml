@@ -9,6 +9,8 @@ colorScheme = "github"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
 
+logo = "img/logo.png"
+
 enableA11y = false
 enableSearch = true
 enableCodeCopy = false
