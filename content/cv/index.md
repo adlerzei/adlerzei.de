@@ -9,7 +9,7 @@ showTableOfContents: true
 ---
 
 {{< lead >}}
-Software developer, technical lead and documentation specialist, based in Frankfurt/Rhein-Main.
+Software developer, tech lead and documentation specialist from the Frankfurt/Rhein-Main area. Here's the short version of how I got here.
 {{< /lead >}}
 
 <div class="az-stats">
@@ -92,7 +92,7 @@ Completed with distinction.
 
 ## Open source
 
-I maintain two browser extensions in my spare time. See the [projects page](/projects/) for details.
+In my spare time I build and maintain two browser extensions. More on the [projects page](/projects/).
 
 - **[Letterboxd Streaming Providers](/projects/letterboxd-streaming-providers/)** (since 2019): adds a streaming service filter to Letterboxd.
 - **[Old Wiki](/projects/old-wiki/)** (since 2023): brings back the classic Vector layout on Wikipedia and other Wikimedia sites.

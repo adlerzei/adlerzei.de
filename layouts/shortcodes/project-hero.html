@@ -1,0 +1,18 @@
+{{- /* Hero banner for project pages. Inner content is the tagline. */ -}}
+<div class="az-hero not-prose">
+  <div class="az-hero-glow" aria-hidden="true"></div>
+  <img class="az-hero-logo nozoom" src="{{ .Get "logo" | relURL }}" alt="{{ .Get "name" }} logo">
+  <div class="az-hero-body">
+    <p class="az-hero-tagline">{{ .Inner | markdownify }}</p>
+    <div class="az-facts">
+      {{ with .Get "since" }}<span><strong>Since</strong> {{ . }}</span>{{ end }}
+      <span><strong>Runs on</strong> Chromium · Firefox</span>
+      <span><strong>License</strong> MIT</span>
+    </div>
+    <div class="az-hero-actions">
+      {{ with .Get "chrome" }}<a class="az-btn" href="{{ . }}" target="_blank" rel="noopener">{{ partial "icon" "globe" }} Chrome Web Store</a>{{ end }}
+      {{ with .Get "firefox" }}<a class="az-btn" href="{{ . }}" target="_blank" rel="noopener">{{ partial "icon" "fire" }} Firefox Add-ons</a>{{ end }}
+      {{ with .Get "repo" }}<a class="az-btn az-btn-ghost" href="https://github.com/{{ . }}" target="_blank" rel="noopener">{{ partial "icon" "github" }} Source on GitHub</a>{{ end }}
+    </div>
+  </div>
+</div>

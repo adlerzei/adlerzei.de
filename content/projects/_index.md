@@ -12,6 +12,6 @@ cascade:
   showAuthor: false
 ---
 
-These are the open source projects I build and maintain in my spare time. Both are browser
-extensions for Chromium-based browsers (Chrome, Edge, Brave, Opera, …) and Firefox, and both are
-MIT-licensed. Contributions, bug reports and ideas are always welcome on GitHub.
+These are the things I build when nobody's paying me to. Both are small browser extensions that
+make a corner of the web a bit nicer. They run in Chrome, Firefox, Edge, Brave and Opera,
+and they're open source under the MIT license. Bug reports and ideas are always welcome on GitHub!
