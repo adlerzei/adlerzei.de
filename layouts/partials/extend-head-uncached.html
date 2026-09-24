@@ -1,0 +1,7 @@
+{{- /* The homepage already shows the avatar and name prominently, so hide the header logo and title there. */ -}}
+{{- if .IsHome -}}
+<style>
+  .main-menu > div:has(> a > .logo),
+  .main-menu > a.text-base.font-medium { display: none; }
+</style>
+{{- end -}}
