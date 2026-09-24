@@ -22,14 +22,14 @@ Welcome to my small corner of the web! Here you'll find a bit [about me](about/)
 <div class="az-section-title">Featured projects</div>
 
 <div class="az-projects">
-  <a class="az-card" href="projects/letterboxd-streaming-providers/">
+  <a class="az-card" href="{{< relref \"projects/letterboxd-streaming-providers\" >}}">
     <img src="img/lsp-logo.png" alt="Letterboxd Streaming Providers logo">
     <span>
       <span class="az-card-title">Letterboxd Streaming Providers</span>
       <span class="az-card-text">Filter Letterboxd by the streaming services you actually subscribe to.</span>
     </span>
   </a>
-  <a class="az-card" href="projects/old-wiki/">
+  <a class="az-card" href="{{< relref \"projects/old-wiki\" >}}">
     <img src="img/old-wiki-logo.png" alt="Old Wiki logo">
     <span>
       <span class="az-card-title">Old Wiki</span>
@@ -39,7 +39,7 @@ Welcome to my small corner of the web! Here you'll find a bit [about me](about/)
 </div>
 
 <p style="text-align:center;margin-top:2.5rem">
-{{< button href="cv/" >}}{{< icon "file-lines" >}}&nbsp; View my CV{{< /button >}}
+{{< button pageRef="cv" >}}{{< icon "file-lines" >}}&nbsp; View my CV{{< /button >}}
 &nbsp;
-{{< button href="projects/" >}}{{< icon "code" >}}&nbsp; All projects{{< /button >}}
+{{< button pageRef="projects" >}}{{< icon "code" >}}&nbsp; All projects{{< /button >}}
 </p>
