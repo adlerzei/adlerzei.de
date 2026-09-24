@@ -6,6 +6,15 @@ weight: 10
 tags: ["browser extension", "javascript", "open source"]
 ---
 
+<div class="az-project-header">
+  <img src="/img/lsp-logo.png" alt="Letterboxd Streaming Providers logo">
+  <div class="az-facts">
+    <span><strong>Since</strong> 2019</span>
+    <span><strong>Platforms</strong> Chromium · Firefox</span>
+    <span><strong>License</strong> MIT</span>
+  </div>
+</div>
+
 {{< lead >}}
 Which of the films on my Letterboxd watchlist can I actually stream right now?
 {{< /lead >}}

@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-description: "Professional experience, education and skills of Christian Zei."
+description: "Professional experience, education and skills."
 showDate: false
 showReadingTime: false
 showWordCount: false
@@ -9,8 +9,15 @@ showTableOfContents: true
 ---
 
 {{< lead >}}
-Christian Zei: software developer, technical lead and documentation specialist, based in Frankfurt/Rhein-Main.
+Software developer, technical lead and documentation specialist, based in Frankfurt/Rhein-Main.
 {{< /lead >}}
+
+<div class="az-stats">
+  <div class="az-stat"><span class="az-stat-value">2013</span><span class="az-stat-label">writing software professionally since</span></div>
+  <div class="az-stat"><span class="az-stat-value">7+</span><span class="az-stat-label">years at Advancis</span></div>
+  <div class="az-stat"><span class="az-stat-value">~10</span><span class="az-stat-label">people in the documentation guild I lead</span></div>
+  <div class="az-stat"><span class="az-stat-value">3</span><span class="az-stat-label">degrees from TU Darmstadt</span></div>
+</div>
 
 {{< button href="https://www.linkedin.com/in/christian-zei-567867181" target="_blank" >}}
 {{< icon "linkedin" >}} View on LinkedIn

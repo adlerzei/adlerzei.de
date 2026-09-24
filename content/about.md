@@ -11,7 +11,7 @@ showAuthor: false
 Software developer and documentation specialist with more than a decade of hands-on experience.
 {{< /lead >}}
 
-Hi, I'm Christian, known online as **adlerzei**. I work at
+Hi, I'm **adlerzei**. I work at
 [Advancis Software & Services](https://www.advancis.net/) near Frankfurt, where I am a technical lead
 for device integrations in WinGuard and the function owner for technical documentation. I hold a
 Master's degree in IT Security and a Master's degree in Computer Science (completed with distinction),

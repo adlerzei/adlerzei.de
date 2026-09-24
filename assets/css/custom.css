@@ -1,0 +1,157 @@
+/* Custom styles for adlerzei.de, on top of Blowfish */
+
+/* Stat tiles ("at a glance") */
+.az-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+@media (min-width: 768px) {
+  .az-stats { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+.az-stat {
+  padding: 1.25rem 1rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  background: rgba(var(--color-neutral-50), 0.7);
+  border: 1px solid rgba(var(--color-neutral-200), 1);
+  backdrop-filter: blur(6px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.az-stat:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px -10px rgba(var(--color-primary-500), 0.45);
+}
+.az-stat-value {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.1;
+  background: linear-gradient(135deg, rgba(var(--color-primary-600), 1), rgba(var(--color-secondary-500, var(--color-primary-300)), 1));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.az-stat-label {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  color: rgba(var(--color-neutral-600), 1);
+}
+html.dark .az-stat {
+  background: rgba(var(--color-neutral-800), 0.6);
+  border-color: rgba(var(--color-neutral-700), 1);
+}
+html.dark .az-stat-label { color: rgba(var(--color-neutral-400), 1); }
+html.dark .az-stat-value {
+  background: linear-gradient(135deg, rgba(var(--color-primary-300), 1), rgba(var(--color-primary-500), 1));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* Section heading on the homepage */
+.az-section-title {
+  margin: 3rem 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+/* Project cards on the homepage */
+.az-projects {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25rem;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  .az-projects { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+a.az-card {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1.25rem;
+  border-radius: 1rem;
+  text-decoration: none !important;
+  color: inherit !important;
+  background: rgba(var(--color-neutral-50), 0.75);
+  border: 1px solid rgba(var(--color-neutral-200), 1);
+  backdrop-filter: blur(6px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+a.az-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(var(--color-primary-400), 1);
+  box-shadow: 0 16px 35px -15px rgba(var(--color-primary-500), 0.55);
+}
+html.dark a.az-card {
+  background: rgba(var(--color-neutral-800), 0.65);
+  border-color: rgba(var(--color-neutral-700), 1);
+}
+html.dark a.az-card:hover { border-color: rgba(var(--color-primary-400), 1); }
+.az-card img {
+  width: 4.5rem;
+  height: 4.5rem;
+  flex-shrink: 0;
+  margin: 0 !important;
+  object-fit: contain;
+  border-radius: 0.75rem;
+}
+.az-card-title {
+  display: block;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.az-card-text {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: rgba(var(--color-neutral-600), 1);
+}
+html.dark .az-card-text { color: rgba(var(--color-neutral-400), 1); }
+
+/* Animated tagline */
+.az-tagline {
+  min-height: 2.5rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: rgba(var(--color-primary-600), 1);
+}
+html.dark .az-tagline { color: rgba(var(--color-primary-300), 1); }
+
+/* Header block on project pages */
+.az-project-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+.az-project-header img {
+  width: 5.5rem;
+  height: 5.5rem;
+  margin: 0 !important;
+  object-fit: contain;
+  border-radius: 1rem;
+  box-shadow: 0 12px 30px -12px rgba(var(--color-primary-500), 0.6);
+}
+.az-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.az-facts span {
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  background: rgba(var(--color-primary-100), 0.6);
+  color: rgba(var(--color-primary-800), 1);
+}
+.az-facts strong { font-weight: 700; margin-right: 0.25rem; color: inherit; }
+html.dark .az-facts span {
+  background: rgba(var(--color-primary-900), 0.5);
+  color: rgba(var(--color-primary-200), 1);
+}

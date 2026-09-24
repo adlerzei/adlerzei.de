@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 description: "Open source projects I maintain as a hobby."
+cardView: true
 groupByYear: false
 orderByWeight: true
 cascade:

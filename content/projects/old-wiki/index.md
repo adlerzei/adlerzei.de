@@ -6,6 +6,15 @@ weight: 20
 tags: ["browser extension", "javascript", "open source"]
 ---
 
+<div class="az-project-header">
+  <img src="/img/old-wiki-logo.png" alt="Old Wiki logo">
+  <div class="az-facts">
+    <span><strong>Since</strong> 2023</span>
+    <span><strong>Platforms</strong> Chromium · Firefox</span>
+    <span><strong>License</strong> MIT</span>
+  </div>
+</div>
+
 {{< lead >}}
 Prefer the classic Wikipedia look? Old Wiki brings it back automatically.
 {{< /lead >}}
