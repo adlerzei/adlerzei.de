@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-description: "Education, professional experience and skills."
+description: "Professional experience, education and skills of Christian Zei."
 showDate: false
 showReadingTime: false
 showWordCount: false
@@ -9,11 +9,15 @@ showTableOfContents: true
 ---
 
 {{< lead >}}
-Software developer and documentation specialist with more than a decade of hands-on experience.
+Christian Zei: software developer, technical lead and documentation specialist, based in Frankfurt/Rhein-Main.
 {{< /lead >}}
 
+{{< button href="https://www.linkedin.com/in/christian-zei-567867181" target="_blank" >}}
+{{< icon "linkedin" >}} View on LinkedIn
+{{< /button >}}
+
 <!--
-  TODO: Put a PDF version of your CV at static/files/cv.pdf and uncomment the button below.
+  Optional: put a PDF version of your CV at static/files/cv.pdf and uncomment the button below.
 
 {{< button href="/files/cv.pdf" target="_blank" >}}
 {{< icon "download" >}} Download CV as PDF
@@ -22,21 +26,42 @@ Software developer and documentation specialist with more than a decade of hands
 
 ## Professional experience
 
-<!-- TODO: replace the placeholder entries below with your actual positions (newest first). -->
-
 {{< timeline >}}
 
-{{< timelineItem icon="code" header="Function Owner / Software Developer" badge="YYYY – today" subheader="Company, City" >}}
+{{< timelineItem icon="code" header="Technical Lead" badge="Oct 2023 – today" subheader="Advancis Software & Services · Langen (Hessen)" >}}
 <ul>
-  <li>TODO: key responsibility or achievement</li>
-  <li>TODO: key responsibility or achievement</li>
+  <li>Technical lead of a sub-team within a development team, integrating device interfaces between
+  WinGuard (a vendor-neutral PSIM platform for integrating security, building and communication
+  technology) and hardware from a wide range of manufacturers</li>
+  <li>Responsible for technical alignment, coordination and implementation within the team</li>
 </ul>
 {{< /timelineItem >}}
 
-{{< timelineItem icon="file-lines" header="Software Developer & Documentation Specialist" badge="YYYY – YYYY" subheader="Company, City" >}}
+{{< timelineItem icon="file-lines" header="Technical Documentation Lead & Function Owner" badge="Jul 2021 – today" subheader="Advancis Software & Services · Langen (Hessen)" >}}
 <ul>
-  <li>TODO: key responsibility or achievement</li>
-  <li>TODO: key responsibility or achievement</li>
+  <li>Functional lead of the "Technical Documentation" function and of a cross-departmental guild (~10 people)</li>
+  <li>Responsible for strategy, standards and tooling for technical documentation</li>
+  <li>Built and runs a DocOps toolchain for authoring and publishing technical documentation based on Hugo, including CI/CD</li>
+</ul>
+{{< /timelineItem >}}
+
+{{< timelineItem icon="code" header="Software Developer" badge="Apr 2019 – Oct 2023" subheader="Advancis Software & Services · Langen (Hessen)" >}}
+{{< /timelineItem >}}
+
+{{< timelineItem icon="graduation-cap" header="Student Assistant (Mentoring Program)" badge="Oct 2015 – Mar 2019" subheader="Technische Universität Darmstadt" >}}
+<ul>
+  <li>Supported and mentored students; ran peer observations and feedback sessions</li>
+  <li>Developed the student mentoring system further; designed, ran and improved workshops on my own</li>
+  <li>Designed, ran and evaluated a two-stage application process for new mentors</li>
+  <li>From April 2017 as a student assistant holding an academic degree</li>
+</ul>
+{{< /timelineItem >}}
+
+{{< timelineItem icon="code" header="Working Student" badge="Apr 2013 – Apr 2015" subheader="Siemens · Offenbach am Main" >}}
+<ul>
+  <li>Built, extended and administered a quote and customer management application (front end and
+  back end) in Visual Basic for Applications with Microsoft Access, including its database
+  (Access SQL) and documentation</li>
 </ul>
 {{< /timelineItem >}}
 
@@ -46,15 +71,15 @@ Software developer and documentation specialist with more than a decade of hands
 
 {{< timeline >}}
 
-{{< timelineItem icon="graduation-cap" header="M.Sc. Computer Science" badge="with distinction" subheader="Technische Universität Darmstadt" >}}
-<!-- TODO: years, focus areas, thesis title -->
+{{< timelineItem icon="graduation-cap" header="M.Sc. Computer Science" badge="2017 – 2020" subheader="Technische Universität Darmstadt" >}}
+Completed with distinction.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="graduation-cap" header="M.Sc. IT Security" subheader="Technische Universität Darmstadt" >}}
-<!-- TODO: years, focus areas, thesis title -->
+{{< timelineItem icon="graduation-cap" header="M.Sc. IT Security" badge="2017 – 2020" subheader="Technische Universität Darmstadt" >}}
 {{< /timelineItem >}}
 
-<!-- TODO: add your Bachelor's degree here -->
+{{< timelineItem icon="graduation-cap" header="B.Sc. Computer Science" badge="2012 – 2017" subheader="Technische Universität Darmstadt" >}}
+{{< /timelineItem >}}
 
 {{< /timeline >}}
 
@@ -67,13 +92,11 @@ I maintain two browser extensions in my spare time. See the [projects page](/pro
 
 ## Skills
 
-<!-- TODO: adjust to your actual skill set -->
-
-- **Programming:** JavaScript, TODO
-- **Technologies:** WebExtensions API, Git, GitHub Actions, TODO
-- **Focus areas:** IT security, technical documentation, TODO
+- **Programming:** C#, .NET, JavaScript, Visual Basic for Applications
+- **Tooling:** Hugo, CI/CD, DocOps, Git, GitHub Actions, WebExtensions API
+- **Focus areas:** IT security, technical documentation, device and system integration, technical leadership
 
 ## Languages
 
-- German: TODO
-- English: TODO
+- German: native
+- English: professional working proficiency
