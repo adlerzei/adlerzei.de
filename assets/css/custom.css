@@ -396,3 +396,44 @@ html.dark .az-facts span {
   background: rgba(var(--color-primary-900), 0.6);
   color: rgba(var(--color-primary-200), 1);
 }
+
+/* Extension popup screenshot */
+.az-shot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem 0 2rem;
+}
+.az-shot img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 !important;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(var(--color-neutral-300), 1);
+  box-shadow:
+    0 30px 60px -25px rgba(var(--color-primary-700), 0.55),
+    0 12px 25px -12px rgba(0, 0, 0, 0.35);
+  transform: rotate(-1.5deg);
+  transition: transform 0.3s ease;
+}
+.az-shot img:hover { transform: rotate(0deg) scale(1.02); }
+html.dark .az-shot img { border-color: rgba(var(--color-neutral-600), 1); }
+.az-shot figcaption {
+  max-width: 20rem;
+  margin-top: 1.1rem;
+  font-size: 0.85rem;
+  text-align: center;
+  color: rgba(var(--color-neutral-500), 1);
+}
+@media (min-width: 768px) {
+  .az-howto {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 20rem;
+    gap: 2.5rem;
+    align-items: start;
+  }
+  .az-howto .az-shot { margin-top: 1.25rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .az-shot img { transform: none; transition: none; }
+}

@@ -40,6 +40,8 @@ ask for it in the URL:
 <div class="az-urlbar">en.wikipedia.org/wiki/Red_fox</div>
 <div class="az-urlbar">en.wikipedia.org/wiki/Red_fox<mark>?useskin=vector</mark></div>
 
+<div class="az-howto">
+
 {{< steps >}}
 {{< step title="You open a Wikimedia page" >}}
 Just like always, from a search, a bookmark or a link.
@@ -52,8 +54,12 @@ And if you want, the extension keeps the address bar clean, too.
 {{< /step >}}
 {{< /steps >}}
 
-The popup has three switches: turn the classic skin on or off, reload your open Wikipedia tabs right
-away when you flip it, and hide the extra bit from the address bar.
+{{< popup-shot src="img/old-wiki-popup.png" alt="The Old Wiki popup with the switches Apply vector skin, Auto reload and Hide URL query all turned on" width="320" >}}
+Three switches: the classic skin itself, reloading your open Wikipedia tabs right away when you flip
+it, and keeping the extra bit out of your address bar.
+{{< /popup-shot >}}
+
+</div>
 
 ### Supported sites
 
