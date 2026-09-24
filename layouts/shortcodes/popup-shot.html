@@ -1,0 +1,5 @@
+{{- /* Screenshot of an extension popup, shown as a floating card next to the steps. */ -}}
+<figure class="az-shot not-prose">
+  <img class="nozoom" src="{{ .Get "src" | relURL }}" alt="{{ .Get "alt" }}" width="{{ .Get "width" | default 300 }}">
+  {{ with .Inner }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>

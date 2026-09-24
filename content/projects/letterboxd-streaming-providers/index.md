@@ -37,6 +37,8 @@ No account, no ads. The code is MIT-licensed and lives on GitHub.
 
 ## How it works
 
+<div class="az-howto">
+
 {{< steps >}}
 {{< step title="Pick your country and service" >}}
 Click the extension icon, choose your country and your streaming service, and switch the filter on.
@@ -51,6 +53,12 @@ For each film it asks [TMDB](https://www.themoviedb.org/) where it's available. 
 Films that aren't on your service get dimmed. Switch the filter off and everything goes back to normal.
 {{< /step >}}
 {{< /steps >}}
+
+{{< popup-shot src="img/lsp-popup.png" alt="The Letterboxd Streaming Providers popup with the filter switched on, United States of America as the country and Netflix as the streaming service" >}}
+The popup: one switch, two dropdowns.
+{{< /popup-shot >}}
+
+</div>
 
 <details class="az-more">
 <summary>Show all supported countries</summary>
