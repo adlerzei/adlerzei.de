@@ -27,6 +27,6 @@ both from TU Darmstadt.
 ## Get in touch
 
 The easiest way to reach me is via [email](mailto:mail@adlerzei.de). You can also find me on
-[GitHub](https://github.com/adlerzei) and [Bluesky](https://bsky.app/profile/adlerzei).
+[GitHub](https://github.com/adlerzei), [LinkedIn](https://www.linkedin.com/in/christian-zei-567867181) and [Bluesky](https://bsky.app/profile/adlerzei).
 
 If you like my work, you can support me on [Ko-fi](https://ko-fi.com/adlerzei).
