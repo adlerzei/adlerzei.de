@@ -16,14 +16,25 @@
   weight = 10
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "CV"
+  pageRef = "cv"
   weight = 20
+
+[[main]]
+  name = "Projects"
+  pageRef = "projects"
+  weight = 30
+
+# Uncomment once there are posts in content/posts/
+# [[main]]
+#   name = "Blog"
+#   pageRef = "posts"
+#   weight = 40
 
 [[main]]
   pre = "github"
   url = "https://github.com/adlerzei"
-  weight = 30
+  weight = 50
 
 #[[main]]
 #  name = "Blog"
