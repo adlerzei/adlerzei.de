@@ -1,0 +1,5 @@
+<div class="az-feature">
+  <span class="az-feature-icon">{{ partial "icon" (.Get "icon" | default "star") }}</span>
+  <span class="az-feature-title">{{ .Get "title" }}</span>
+  <span class="az-feature-text">{{ .Inner | markdownify }}</span>
+</div>

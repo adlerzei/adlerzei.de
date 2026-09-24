@@ -1,0 +1,13 @@
+{{- /* The homepage already shows the avatar and name prominently, so hide the header logo and title there. */ -}}
+{{- if .IsHome -}}
+<style>
+  .main-menu > div:has(> a > .logo),
+  .main-menu > a.text-base.font-medium { display: none; }
+</style>
+{{- end -}}
+{{- /* Project pages have wide components (hero, feature grid), so give them more room. */ -}}
+{{- if and (eq .Section "projects") .IsPage -}}
+<style>
+  #single_header, .article-content, article > footer { max-width: 56rem; }
+</style>
+{{- end -}}

@@ -11,7 +11,7 @@ title = "adlerzei"
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  description = "Personal page of adlerzei: software developer, documentation specialist and open source maintainer."
   # copyright = "Copy, _right?_ :thinking_face:"
 
  [params.author]
@@ -46,7 +46,7 @@ title = "adlerzei"
 #     { keyoxide = "https://keyoxide.org/URI" },
 #     { kickstarter = "https://www.kickstarter.com/profile/username" },
 #     { lastfm = "https://lastfm.com/user/username" },
-#     { linkedin = "https://linkedin.com/in/username" },
+     { linkedin = "https://www.linkedin.com/in/christian-zei-567867181" },
 #     { mastodon = "https://mastodon.instance/@username" },
 #     { matrix = "https://matrix.to/#/URI" },
 #     { medium = "https://medium.com/username" },

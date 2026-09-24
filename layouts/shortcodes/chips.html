@@ -1,0 +1,6 @@
+{{- /* Comma-separated list rendered as chips. */ -}}
+<div class="az-chips not-prose">
+  {{- range split (trim .Inner " \n") "," -}}
+    {{- with trim . " \n" }}<span>{{ . }}</span>{{ end -}}
+  {{- end -}}
+</div>
